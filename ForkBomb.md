@@ -36,6 +36,6 @@ docker run -d --entrypoint /usr/bin/tail debian:sid-slim -f /dev/null
  - In another kick off the fork-bomb
  - Does your limit work?
 
-### Experiments B: what if you did not apply a limit:
+### B: what if you did not apply a limit:
 
  - Much the same as the previous one, except leave out the limit. You may have done this one already inadvertently if you skipped over the previous instructions a bit...

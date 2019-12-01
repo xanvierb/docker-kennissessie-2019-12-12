@@ -52,7 +52,7 @@ Do not install a desktop environment. A SSH server, on the other hand, would be 
 Install packages. Some useful ones:
 
 ```sh
-apt-get install --no-install-recommends docker.io docker-compose aptitude ssh tmux psmisc git gcc perl libc6-dev
+apt-get install --no-install-recommends docker.io docker-compose aptitude ssh tmux psmisc git gcc perl libc6-dev iputils-ping
 ```
 
 Note: to simplify working with `docker` you may want to add your user account to the `docker` group, using:

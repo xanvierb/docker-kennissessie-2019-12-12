@@ -12,4 +12,4 @@ One of the findings of the Docker Security Bench is that there are no configured
 ## What will this button do?
 
 1. configure your endpoint to go down after a specified time
-2. see how docker response to this
+2. see how docker response to this with `docker ps`

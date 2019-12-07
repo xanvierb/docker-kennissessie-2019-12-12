@@ -4,15 +4,8 @@ One of the findings of the Docker Security Bench is that there are no configured
 
 ## lets go
 
-1. install some webserver at your own discretion to the container. 
-
-TODO > gebruik nginx container
-
-2. create an `/health` endpoint which returns a 200 response
-3. configure Docker to use this endpoint
-4. check `docker ps` and notice that this is changed
-
-## What will this button do?
-
-1. configure your endpoint to go down after a specified time
-2. see how docker response to this with `docker ps`
+1. retrieve the [xanvier/healthtest](https://hub.docker.com/repository/docker/xanvier/healthtest) container from docker hub.
+2. There is a health endpoint configured in this container on [http://localhost/health.html]
+3. use the `--health-cmd='<HEALTH CHECK COMMAND>'` flag in the `run` command
+4. come up with a health check command that makes sense. 
+5. When executing `docker ps` you'll notice that something changes.

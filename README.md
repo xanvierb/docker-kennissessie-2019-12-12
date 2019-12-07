@@ -19,6 +19,6 @@ You can do these excersises in this order. Be aware, read the excersises careful
 
 1. [Privilege Escelation](./PrivilegeEscalation.md) 
 2. [Limiting memory ](./OOM.md) 
-3. [Limiting processes ](./ForkBomb.md) 
+3. [Limiting number of tasks ](./ForkBomb.md) 
 4. [Docker in Docker](./docker-in-docker.md) 
 5. [Health Check](./health-check.md) 

@@ -11,6 +11,8 @@ pw: experiments
 
 the experiments user is a member of the sudo group, but you can also `su` into the root account, the root user has the same password as the experiments user. 
 
+If you would like to access the VM using SSH you can log in to the machine and resolve the IP address of the host-only network using the `ip addr` command. 
+
 ## Excersises
 
 You can do these excersises in this order. Be aware, read the excersises carefuly a lot of the course is about the information in the excersises itself. 

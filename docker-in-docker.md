@@ -15,7 +15,10 @@ Docker communicates with the Docker deamon using a socket. If we manage to mount
 
 ## Sudo with no audit logging
 
-docker cp
+
+docker cp ->> informatie lekken, host configs berwerken of lezen
+
+lsns 
 but how?
 chroot
 

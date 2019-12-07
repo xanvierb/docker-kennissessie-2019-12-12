@@ -1,0 +1,5 @@
+- privilege escelation
+- oom
+- fork bomb
+- dind
+- health check (verijks opgave)

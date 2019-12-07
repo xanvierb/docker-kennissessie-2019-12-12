@@ -18,7 +18,7 @@ If you would like to access the VM using SSH you can log in to the machine and r
 You can do these excersises in this order. Be aware, read the excersises carefuly a lot of the course is about the information in the excersises itself. 
 
 1. [Privilege Escelation](./PrivilegeEscalation.md) 
-2. [Out of memmory ](./OOM.md) 
-3. [Forking ](./ForkBomb.md) 
+2. [Limiting memory ](./OOM.md) 
+3. [Limiting processes ](./ForkBomb.md) 
 4. [Docker in Docker](./docker-in-docker.md) 
 5. [Health Check](./health-check.md) 

@@ -15,6 +15,10 @@ If you would like to access the VM using SSH you can log in to the machine and r
 
 ## Excersises
 
+### Excersise 1
+Run `docker-bench-security` and look at some of the the outputs.If you are familiar with the output you can continue. 
+
+### the Rest of the excersises
 You can do these excersises in this order. Be aware, read the excersises carefuly a lot of the course is about the information in the excersises itself. 
 
 1. [Privilege Escelation](./PrivilegeEscalation.md) 
